@@ -1,0 +1,50 @@
+.incomming_call_bg {
+  background-image: url(../../../public/assets/bg.jpeg);
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  width: 400px;
+  background-color: whitesmoke;
+  border-radius: 15px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  /* border: 2px solid white; */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.incomming_call_header {
+  flex: 1;
+  text-align: center;
+}
+
+.incomming_call_btns {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  /* text-align: center; */
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.decline_btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.decline_btn .MuiSvgIcon-root {
+  font-size: 50px;
+  color: #e7584b;
+}
+
+.accept_btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.accept_btn .MuiSvgIcon-root {
+  font-size: 50px;
+  color: rgb(0, 211, 0);
+}

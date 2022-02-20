@@ -1,0 +1,168 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: #33355f;
+  border-radius: 15px 0px 0px 15px;
+}
+.sidebar_header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px 9px 20px;
+  /* border-right: 1px solid gray; */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.sidebar_header_right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 50px;
+  margin-right: 40px;
+}
+.sidebar_header_right .MuiSvgIcon-root {
+  /* margin-right: 2vw; */
+  /* font-size: 24px !important; */
+  color: lightgray;
+}
+
+/* .sidebar_header_right .MuiSvgIcon-root {
+  color: lightgray;
+} */
+
+/* ******************************************************* */
+
+.sidebar_search {
+  display: flex;
+  align-items: center;
+  background-color: #3b3b64;
+  /* border-right: 1px solid gray; */
+  height: 40px;
+  padding: 20px;
+  /* margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px; */
+  /* border-radius: 35px; */
+}
+
+.sidebar_search_field {
+  display: flex;
+  align-items: center;
+  /* margin-right: 10px; */
+  /* background-color: white; */
+  /* width: 100%;
+  height: 35px; */
+}
+
+.sidebar_search_field > input {
+  min-width: 17vw;
+  border: none;
+  background: none;
+  /* background-color: #ec6982; */
+  margin-left: 10px;
+}
+
+.sidebar_search_field > .MuiSvgIcon-root {
+  color: gray;
+}
+
+/* ******************************************************* */
+
+.sidebar_chats {
+  /* margin-left: 12px; */
+  /* margin-right: 12px; */
+  padding-top: 5px;
+  padding-right: 12px;
+  background-color: #33355f;
+  color: lightgrey;
+  /* border-right: 1px solid gray; */
+  border-radius: 0px 0px 0px 15px;
+}
+
+.msgDateTime{
+  flex: 1;
+  align-self: end;
+  justify-items: center;
+  margin-right: 2px;
+  font-size: 10px;
+  width: 50%;
+}
+
+.msgTime{
+  padding-left: 10px;
+}
+
+.last_message {
+  margin-top: 5px;
+  font-size: 12px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.all_chats {
+  height: 75vh;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+.sidebarChat {
+  display: flex;
+  padding-left: 20px;
+  margin-left: 20px;
+  padding-top: 10px;
+  /* margin: 20px; */
+  cursor: pointer;
+  min-height: 65px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.sidebarChat:hover {
+  background-color: rgb(209, 209, 209);
+  color: #33355f;
+  border-radius: 5px;
+}
+
+.sidebarChat_info > h2 {
+  font-size: 16px;
+  margin-bottom: 1px;
+  text-decoration: none;
+}
+
+.sidebarChat_info {
+  flex: 2;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.sidebarChat_div > a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* ******************************************************* */
+
+.add_new_chat {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding: 10px 20px 5px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add_new_chat:hover {
+  background-color: #ec6982;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+/* .add_new_chat_div > hr {
+  margin: 2px;
+  background-color: #ffffff;
+} */
+/* ******************************************************* */
+/* ******************************************************* */
+/* ******************************************************* */

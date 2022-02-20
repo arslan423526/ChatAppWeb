@@ -1,0 +1,20 @@
+.video_call_footer_icons {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.video_call_footer_icons .MuiSvgIcon-root {
+  font-size: 35px;
+  color: aliceblue;
+}
+.icon_1 .MuiSvgIcon-root {
+  color: whitesmoke;
+}
+.icon_2 .MuiSvgIcon-root {
+  color: whitesmoke;
+}
+
+.icon_3 .MuiSvgIcon-root {
+  color: red;
+}

@@ -1,0 +1,127 @@
+.video_call_main {
+    height: 90vh;
+    width: 80vw;
+    position: relative;
+    background-color: rgb(241, 229, 229);
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+}
+
+.video_call_header {
+    flex: 1;
+    max-height: 100px;
+    text-align: center;
+    padding-top: 15px;
+    background-color: #151516e0;
+}
+
+/* ----------------------------------- */
+
+.video-container {
+    flex: 2;
+    position: relative;
+    background-color: #2d2d56;
+}
+
+/*.video_call_div {*/
+/*    z-index: 999;*/
+/*    background-color: #090808;*/
+/*    position: absolute;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    bottom: 0;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    top: 0;*/
+/*    margin: auto;*/
+/*}*/
+
+#remotevideo {
+    z-index: 999;
+    background-color: #090808;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+}
+
+#localvideo {
+    z-index: 1000;
+    background-color: #1267a8;
+    position: absolute;
+    right: 0;
+    width: 33%;
+    height: 27%;
+    bottom: 0;
+    opacity: 0.7;
+    max-width: 240px;
+    max-height: 220px;
+}
+
+/* ----------------------------------- */
+
+.video_call_footer {
+    flex: 1;
+    max-height: 100px;
+    background-color: #151516e0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    bottom: 0;
+}
+
+.video_call_footer_icons {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.video_call_footer .MuiSvgIcon-root {
+    font-size: 30px;
+    color: aliceblue;
+}
+
+.icon_3 .MuiSvgIcon-root {
+    color: red;
+}
+
+/*
+.video_call_footer_icons {
+  display: flex;
+  flex-direction: row;
+  max-width: 350px;
+}
+
+.icon_1 {
+  background-color: aqua;
+  border-radius: 500px;
+}
+.icon_2 {
+  background-color: aqua;
+  border-radius: 500px;
+}
+.icon_3 {
+  background-color: aqua;
+  border-radius: 500px;
+}
+
+.icon_1 > button {
+  padding: 25px;
+  margin-left: 25px;
+  background-color: black;
+} */
+
+/* .video_call_footer .MuiSvgIcon-root {
+  font-size: 30px;
+  color: aliceblue;
+} */
+
+/* .icon_btn {
+  background-color: aqua;
+  color: aqua;
+} */
